@@ -1,0 +1,22 @@
+.hat__row{
+  padding-top: 27px;
+  padding-bottom: 27px;
+  display: flex;
+  justify-content: right;
+
+  ul {
+    display: flex;
+    color: #000000;
+
+    li {
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 1;
+      padding-right: 35px;
+      &:last-child{
+        padding-right: 0;
+      }
+    }
+
+  }
+}
